@@ -47,14 +47,21 @@ html, body, #main-container, #row{
   color: white;
 }
 .tacoSize{
-  width:100px;
-  height:100px;
+  width:150px;
+  height:150px;
   cursor:pointer;
 }
 @media screen and (min-width: 1500px) {
   .tacoSize{
     width:200px;
     height:200px;
+    cursor:pointer;
+  }
+}
+@media screen and (min-width: 750px) {
+  .tacoSize{
+    width:100px;
+    height:100px;
     cursor:pointer;
   }
 }
