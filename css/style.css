@@ -51,10 +51,17 @@ html, body, #main-container, #row{
   height:100px;
   cursor:pointer;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1500px) {
   .tacoSize{
     width:200px;
     height:200px;
+    cursor:pointer;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .tacoSize{
+    width:150px;
+    height:150px;
     cursor:pointer;
   }
 }
