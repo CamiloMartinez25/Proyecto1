@@ -58,14 +58,14 @@ html, body, #main-container, #row{
     cursor:pointer;
   }
 }
-@media screen and (min-width: 1100px) and (max-width:1499px) {
+@media screen and (min-width: 1080px) and (max-width:1499px) {
   .tacoSize{
     width:150px;
     height:150px;
     cursor:pointer;
   }
 }
-@media screen and (min-width: 768px) and (max-width:1099px) {
+@media screen and (min-width: 768px) and (max-width:1079px) {
   .tacoSize{
     width:100px;
     height:100px;
