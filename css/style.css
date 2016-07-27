@@ -72,17 +72,24 @@ html, body, #main-container, #row{
     cursor:pointer;
   }
 }
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 535px) {
   .tacoSize{
     width:150px;
     height:150px;
     cursor:pointer;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 535px) {
   .tacoSize{
     width:100px;
     height:100px;
+    cursor:pointer;
+  }
+}
+@media screen and (max-width: 350px) {
+  .tacoSize{
+    width:90px;
+    height:90px;
     cursor:pointer;
   }
 }
