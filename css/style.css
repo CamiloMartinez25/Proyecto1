@@ -154,6 +154,8 @@ html, body, #main-container, #row{
     transform: rotate(360deg); /* Standard syntax */
 }
 .menuDiv{
+  border: 2px solid #D92600;
   border-radius: 25%;
+  box-shadow: 0px 0px 20px white;
   /*display: none;*/
   }
