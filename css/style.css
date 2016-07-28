@@ -155,5 +155,5 @@ html, body, #main-container, #row{
 }
 .menuDiv{
   border-radius: 25%;
-  display: none;
+  /*display: none;*/
   }
