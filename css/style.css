@@ -156,6 +156,7 @@ html, body, #main-container, #row{
 .menuTit{
   border: 2px solid #D92600;
   border-radius: 25px;
+  clear:both;
 }
 .menuDiv{
   border: 2px solid #D92600;
@@ -167,4 +168,8 @@ html, body, #main-container, #row{
   z-index: 1;
   width: 100px;
   height: 100px;
+}
+#entrada{
+  position: relative;
+  margin-left: 3%;
 }
