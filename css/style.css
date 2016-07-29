@@ -171,4 +171,4 @@ html, body, #main-container, #row{
   position: relative;
   margin-left: 3%;
 }
-li{text-decoration: none}
+ul, li{text-decoration: none}
