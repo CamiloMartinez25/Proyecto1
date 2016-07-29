@@ -164,10 +164,7 @@ html, body, #main-container, #row{
   z-index: 1;
   width: 100px;
   height: 100px;
-  position: absolute;
   top: 50%;
-  transform: translate(0%, -50%);
-  -webkit-transform: translate(0%, -50%);
 }
 #entrada{
   position: relative;
