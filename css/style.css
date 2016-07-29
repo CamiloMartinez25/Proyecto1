@@ -148,7 +148,6 @@ html, body, #main-container, #row{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
     -ms-transform: rotate(360deg); /* IE 9 */
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg); /* Standard syntax */
@@ -165,6 +164,10 @@ html, body, #main-container, #row{
   z-index: 1;
   width: 100px;
   height: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  -webkit-transform: translate(0%, -50%);
 }
 #entrada{
   position: relative;
