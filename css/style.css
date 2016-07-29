@@ -164,6 +164,7 @@ html, body, #main-container, #row{
   z-index: 1;
   width: 100px;
   height: 100px;
+  position: relative;
   top: 50%;
 }
 #entrada{
