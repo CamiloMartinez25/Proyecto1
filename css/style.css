@@ -160,8 +160,7 @@ html, body, #main-container, #row{
 }
 .menuDiv{
   box-shadow: 0px 0px 10px white;
-  z-index: -1;
-}
+  }
 .imgMenu{
   z-index: 1;
   width: 100px;
