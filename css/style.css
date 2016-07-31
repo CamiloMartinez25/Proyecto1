@@ -175,3 +175,12 @@ html, body, #main-container, #row{
 .menText{
   display: inline;
 }
+.rotateY{
+    -webkit-transform: rotateY(360deg); /* Safari */
+    transform: rotateY(360deg);
+
+}
+.transitionY{
+  -webkit-transition: -webkit-transform 2s; /* Safari */
+  transition: transform 2s;
+}
