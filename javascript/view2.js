@@ -1,9 +1,8 @@
 viewTwo = function(){
 	$("#entradas").on("click", function(){
-		$("#maincol2").addClass("transitionY");
-		$("#maincol2").addClass("rotateY");
-		$("#col2").empty().addClass("rotateY")
-		$("#col2").load("views/entradas.html", entradas);
+		$("#maincol2").addClass("transitionY").addClass("rotateY");
+		$("#col2").empty().addClass("rotateY").load("views/entradas.html", entradas);
+		$("#botones").addClass("rotateY");
 	});
 	$("#principal").on("click", function(){
 		$("#col2").empty();
