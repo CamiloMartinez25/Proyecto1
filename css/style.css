@@ -176,8 +176,8 @@ html, body, #main-container, #row{
   display: inline;
 }
 .rotateY{
-    -webkit-transform: rotateY(360deg); /* Safari */
-    transform: rotateY(360deg);
+    -webkit-transform: rotateY(180deg); /* Safari */
+    transform: rotateY(180deg);
 
 }
 .transitionY{
