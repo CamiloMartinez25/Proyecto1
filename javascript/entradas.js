@@ -1,4 +1,4 @@
 entradas = function(){
-	$("#col2").addClass("rotateY");
+	$("#entradas").addClass("rotateY");
 	console.log("esto es una entrada");
 }
