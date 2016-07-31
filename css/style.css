@@ -182,5 +182,5 @@ html, body, #main-container, #row{
 }
 .transitionY{
   -webkit-transition: -webkit-transform 2s; /* Safari */
-  transition: transform 3s;
+  transition: transform 2s;
 }
