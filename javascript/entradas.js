@@ -1,4 +1,4 @@
 entradas = function(){
-	$("#entradas").addClass("rotateY");
+	$("#entrada").addClass("rotateY");
 	console.log("esto es una entrada");
 }
