@@ -1,8 +1,8 @@
 bebidas = function(){
 	if ($("#maincol2").hasClass("rotateY")){
-		$("#menuEntradas").addClass("rotateY");
+		$("#menuBebidass").addClass("rotateY");
 	}else {
-		$("#menuEntradas").removeClass("rotateY");
+		$("#menuBebidas").removeClass("rotateY");
 	}
 	console.log("esto es una entrada");
 }

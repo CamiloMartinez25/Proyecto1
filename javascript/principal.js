@@ -1,8 +1,8 @@
 principal = function(){
 	if ($("#maincol2").hasClass("rotateY")){
-		$("#menuEntradas").addClass("rotateY");
+		$("#menuPrincipal").addClass("rotateY");
 	}else {
-		$("#menuEntradas").removeClass("rotateY");
+		$("#menuPrincipal").removeClass("rotateY");
 	}
 	console.log("esto es una entrada");
 }

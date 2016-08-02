@@ -1,8 +1,8 @@
 postres = function(){
 	if ($("#maincol2").hasClass("rotateY")){
-		$("#menuEntradas").addClass("rotateY");
+		$("#menuPostres").addClass("rotateY");
 	}else {
-		$("#menuEntradas").removeClass("rotateY");
+		$("#menuPostres").removeClass("rotateY");
 	}
 	console.log("esto es una entrada");
 }
