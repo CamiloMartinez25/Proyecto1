@@ -184,3 +184,8 @@ html, body, #main-container, #row{
   -webkit-transition: -webkit-transform 2s; /* Safari */
   transition: transform 2s;
 }
+.rotateYY{
+    -webkit-transform: rotateY(-180deg); /* Safari */
+    transform: rotateY(-180deg);
+
+}
