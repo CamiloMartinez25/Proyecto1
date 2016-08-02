@@ -1,17 +1,14 @@
 viewTwo = function(){
 	$("#entradas").on("click", function(){
-		$("#maincol2").addClass("transitionY").addClass("rotateY").load("views/entradas.html", entradas);
+		$("#maincol2").toggleClass("transitionY").toggleClass("rotateY").load("views/entradas.html", entradas);
 	});
 	$("#principal").on("click", function(){
-		$("#col2").empty();
-		$("#col2").load("views/principal.html", entradas);
+		$("#maincol2").toggleClass("transitionY").toggleClass("rotateY").load("views/principal.html", principal);
 	});
 	$("#postres").on("click", function(){
-		$("#col2").empty();
-		$("#col2").load("views/postres.html", entradas);
+		$("#maincol2").toggleClass("transitionY").toggleClass("rotateY").load("views/postres.html", postres);
 	});
 	$("#bebidas").on("click", function(){
-		$("#col2").empty();
-		$("#col2").load("views/bebidas.html", entradas);
+		$("#maincol2").toggleClass("transitionY").toggleClass("rotateY").load("views/bebidas.html", bebidas);
 	});
 }
