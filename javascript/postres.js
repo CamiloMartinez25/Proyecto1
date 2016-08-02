@@ -1,4 +1,4 @@
 postres = function(){
-	$("#menuPostres").addClass("rotateY");
+	$("#menuPostres").toggleClass("rotateY");
 	console.log("esto es una entrada");
 }

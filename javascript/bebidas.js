@@ -1,4 +1,4 @@
 bebidas = function(){
-	$("#menuBebidas").addClass("rotateY");
+	$("#menuBebidas").toggleClass("rotateY");
 	console.log("esto es una entrada");
 }

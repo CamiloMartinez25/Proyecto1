@@ -1,4 +1,4 @@
 principal = function(){
-	$("#menuPrincipal").addClass("rotateYY");
+	$("#menuPrincipal").toggleClass("rotateYY");
 	console.log("esto es una entrada");
 }
