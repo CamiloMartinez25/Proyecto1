@@ -182,7 +182,7 @@ html, body, #main-container, #row{
 }
 .transitionY{
   -webkit-transition: -webkit-transform 2s; /* Safari */
-  transition: transform 2s;
+  transition: transform 1s;
 }
 .rotateYY{
     -webkit-transform: rotateY(-180deg); /* Safari */
