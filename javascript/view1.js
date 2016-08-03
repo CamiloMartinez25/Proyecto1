@@ -6,8 +6,8 @@ viewOne = function(){
 
 			if ($("#tipoUser").val() === "Administrador") {
 				url = "https://api.mlab.com/api/1/databases/menu/collections/usuarios?apiKey=SQ9VT2lJJM7bpfC37XVUEemzWasToQpq";
-				mongo.get(url,function(data){
-					index = data.validar($("#userName").val(), $("#password").val(), data);
+				mongo.get(url,function(database){
+					index = data.validar($("#userName").val(), $("#password").val(), database);
 					if (index !== null){
 						router.evalRoute("admin", admin);
 					}else{
@@ -17,8 +17,8 @@ viewOne = function(){
 				})
 			} else{
 				url = "https://api.mlab.com/api/1/databases/menu/collections/usuarios?apiKey=SQ9VT2lJJM7bpfC37XVUEemzWasToQpq";
-				mongo.get(url,function(data){
-					index = data.validar($("#userName").val(), $("#password").val(), data);
+				mongo.get(url,function(database){
+					index = data.validar($("#userName").val(), $("#password").val(), database);
 					if (index !== null){
 						
 					}else{
