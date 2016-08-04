@@ -4,5 +4,4 @@ viewOne = function(){
 	})
 	$("#logIn").on("click", function(){
 		$("#logSpace").load("login.html", login);
-	})
 }
