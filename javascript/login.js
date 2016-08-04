@@ -1,5 +1,7 @@
 login = function(){
-	$("#submit").on("click", function(){
+	$("form").submit("click", function(e){
+		e.preventDefault();
+
 
 			if ($("#tipoUser").val() === "Administrador") {
 				url = "https://api.mlab.com/api/1/databases/menu/collections/usuarios?apiKey=SQ9VT2lJJM7bpfC37XVUEemzWasToQpq";
