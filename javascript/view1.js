@@ -3,6 +3,6 @@ viewOne = function(){
 		router.evalRoute("view2", viewTwo);
 	});
 	$("#logIn").on("click", function(){
-		$("#logSpace").load("login.html", login);
+		$("#logSpace").load("views/login.html", login);
 	});
 }
