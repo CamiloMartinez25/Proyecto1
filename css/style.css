@@ -184,4 +184,6 @@ html, body, #main-container, #row{
   -webkit-transition: -webkit-transform 2s; /* Safari */
   transition: transform 1s;
 }
-
+label {
+  color: black;
+}
